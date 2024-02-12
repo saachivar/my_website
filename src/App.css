@@ -13,9 +13,28 @@ body {
   height: 100%;
   width: 300px;
   background-color: #8895AF;
+  display: inline-block; 
 }
 
 .SidebarContent {
   padding: 30px;
+  color: white;
 }
 
+.title {
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+.sidebarElement {
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.pfpImage {
+  height: 80%;
+  display: inline-block; 
+}

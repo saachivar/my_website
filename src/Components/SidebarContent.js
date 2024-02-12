@@ -3,11 +3,11 @@ import "../App.css";
 function SidebarContent() {
     return (
         <div className="SidebarContent">
-            <div className="title sidebarComponent">versaachi.com</div>
-            <div className="me sidebarComponent">me</div>
-            <div className="about sidebarComponent">about</div>
-            <div className="projects sidebarComponent">projects</div>
-            <div className="contact sidebarComponent">contact</div>
+            <div className="title">versaachi.com</div>
+            <div className="me sidebarElement">me</div>
+            <div className="about sidebarElement">about</div>
+            <div className="projects sidebarElement">projects</div>
+            <div className="contact sidebarElement">contact</div>
         </div>
         
     )
