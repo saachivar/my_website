@@ -1,13 +1,13 @@
 import PFP from './PFP';
 import WelcomeText from './WelcomeText';
 
-function WelcomeScreen() {
+function WelcomeContent() {
 return (
-    <div className = "WelcomeScreen">
+    <div className = "WelcomeContent">
         <PFP />
         <WelcomeText />
         </div>
 )
 
 }
-export default WelcomeScreen;
+export default WelcomeContent;

@@ -3,7 +3,7 @@ import "../images/pfp.png"
 function PFP() {
     return (
         <div className="pfpImage">
-            <img src={ require ('../images/pfp.png')}  width="300"/>
+            <img src={ require ('../images/pfp.png')}  width="320"/>
         </div>
 
     )

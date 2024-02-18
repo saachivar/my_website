@@ -1,9 +1,10 @@
-import WelcomeScreen from "./WelcomeScreen";
-
+import WelcomeContent from "./WelcomeContent";
+import Descrip1 from "./Descrip1.js"
 function MainContent() {
 return (
     <div className = "MainContent">
-        <WelcomeScreen />
+        <WelcomeContent />
+        <Descrip1 />
         </div>
 )
 
