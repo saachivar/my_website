@@ -37,12 +37,12 @@ body {
 
 .MainContent {
   flex: 1;
-  padding: 50px;
 
 }
 
 .WelcomeContent {
   display: flex; 
+  padding: 50px 50px 0px 50px;
 
 }
 
@@ -61,10 +61,14 @@ body {
   padding-top: 10px; 
 }
 
-.descripOne {
+.Descrip1 {
   background-color:  #8895AF;
-  padding-top: 80px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  padding-left: 110px;
+  margin-left: 350px; 
   font: monospace;
+  border-radius: 150px 0px 0px 150px;
 }
 
 

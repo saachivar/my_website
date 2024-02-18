@@ -1,7 +1,7 @@
 
 function Descrip1() {
 return (
-    <div classname="descripOne">
+    <div className="Descrip1">
         Hello???
         </div>
     )
