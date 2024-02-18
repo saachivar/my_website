@@ -5,6 +5,7 @@ return (
     <div className = "MainContent">
         <WelcomeContent />
         <Descrip1 />
+        
         </div>
 )
 
