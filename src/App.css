@@ -35,8 +35,20 @@ body {
   padding-bottom: 10px;
 }
 
+.MainContent {
+  flex: 1;
+  padding: 50px;
+
+}
+
 .pfpImage {
   height: 40px;
   width: 40px;
   display: inline-block; 
 }
+
+.WelcomeContent {
+  display: flex;
+}
+
+

@@ -1,9 +1,9 @@
-import PFP from './Components/PFP';
+import WelcomeScreen from "./WelcomeScreen";
 
 function MainContent() {
 return (
     <div className = "MainContent">
-        <PFP />
+        <WelcomeScreen />
         </div>
 )
 
