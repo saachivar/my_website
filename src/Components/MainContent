@@ -1,4 +1,11 @@
-function App() {
+import PFP from './Components/PFP';
 
-    
+function MainContent() {
+return (
+    <div className = "MainContent">
+        <PFP />
+        </div>
+)
+
 }
+export default MainContent;

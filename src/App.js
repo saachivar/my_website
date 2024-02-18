@@ -1,13 +1,13 @@
 
 import './App.css';
 import Sidebar from './Components/Sidebar';
-import PFP from './Components/PFP';
+import MainContent from './Components/MainContent';
 
 function App() {
   return (
    <div className="App">
       <Sidebar />
-      <PFP />
+      <MainContent />
     </div> 
   );
 }
