@@ -49,7 +49,7 @@ body {
 .WelcomeText {
   padding-left: 400px;
   padding-top: 0px;
-  font-family: 'Source Serif 4';font-size: 60px;
+  font-family: 'Koh Santepheap';font-size: 70px;
   font-weight: lighter;
 
 }
@@ -63,12 +63,15 @@ body {
 
 .Descrip1 {
   background-color:  #8895AF;
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   padding-left: 110px;
+  margin-top: 40px;
   margin-left: 350px; 
   font: monospace;
-  border-radius: 150px 0px 0px 150px;
+  border-radius: 200px 0px 0px 200px;
+  font-weight: lighter;
+  font-size: 30px;
 }
 
 
