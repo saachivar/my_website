@@ -75,7 +75,7 @@ body {
   border-radius: 200px 0px 0px 200px;
   font-weight: lighter;
   font-size: 30px;
-  left: -600px; /* Off-screen initially */
+  right: -600px; /* Off-screen initially */
   transition: right 1s ease; /* Slide-in transition */
 }
 
