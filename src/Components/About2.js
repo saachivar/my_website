@@ -1,5 +1,5 @@
 
-function about2() {
+function About2() {
     return (
         <div className="about about2">
             <p>I’m a first year student computer science major at the University of Georgia.</p>
@@ -7,4 +7,4 @@ function about2() {
         )
     
     }
-    export default about2;
+    export default About2;
