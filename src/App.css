@@ -63,7 +63,7 @@ body {
   padding-top: 10px; 
 }
 
-.Descrip1 {
+#descrip1-slide-in {
   background-color:  #8895AF;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -75,7 +75,8 @@ body {
   border-radius: 200px 0px 0px 200px;
   font-weight: lighter;
   font-size: 30px;
-  right: -600px; /* Off-screen initially */
+  position: relative; 
+  right: 600px; /* Off-screen initially */
   transition: right 1s ease; /* Slide-in transition */
 }
 
