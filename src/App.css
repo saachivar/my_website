@@ -76,7 +76,7 @@ body {
   font-weight: lighter;
   font-size: 30px;
   position: relative; 
-  right: 600px; /* Off-screen initially */
+  right: 800px; /* Off-screen initially */
   transition: right 1s ease; /* Slide-in transition */
 }
 
