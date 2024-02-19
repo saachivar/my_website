@@ -2,7 +2,6 @@
 const ProjectDescrip = ({ heading, links }) => {
     return (
         <div className="ProjectDescrip">
-            <h2> HELLO </h2>
             <h2>{heading}</h2>
             <ul>
                 {links.map((link, index) => (
