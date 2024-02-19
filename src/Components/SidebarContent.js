@@ -4,10 +4,10 @@ function SidebarContent() {
     return (
         <div className="SidebarContent">
             <div className="title">versaachi.com</div>
-            <div className="me sidebarElement">me</div>
-            <div className="about sidebarElement">about</div>
-            <div className="projects sidebarElement">projects</div>
-            <div className="contact sidebarElement">contact</div>
+            <div className="meTag sidebarElement">me</div>
+            <div className="aboutTag sidebarElement">about</div>
+            <div className="projectsTag sidebarElement">projects</div>
+            <div className="contactTag sidebarElement">contact</div>
         </div>
         
     )
