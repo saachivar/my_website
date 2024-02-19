@@ -1,6 +1,6 @@
 .App {
   width: 100vw;
-  height: 200vh;
+  height: 300vh;
   background-color: #FFFAF1;
   display: flex;
 }
@@ -81,6 +81,11 @@ body {
   margin-left: 400px;
   margin-right: 150px;
   margin-bottom: 120px;
+}
+
+.ProjectDescrip {
+  margin-left: 500px;
+
 }
 
 
