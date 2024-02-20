@@ -7,16 +7,14 @@ import ProjectDescrip from "./ProjectDescrip.js";
 
 const heading1 = 'Solo Projects:';
 const links1 = [
-        { text: 'Link 1', url: '/link1' },
-        { text: 'Link 2', url: '/link2' },
-        { text: 'Link  adf3', url: '/link3' }
+        { text: 'CodeNotes', url: 'https://github.com/saachivar/CodeNotes' },
+        { text: 'This Website', url: 'https://github.com/saachivar/my_website' },
     ];
 
 const heading2 = 'Group Projects';
 const links2 = [
-        { text: 'Link 1', url: '/link1' },
-        { text: 'Link 2', url: '/link2' },
-        { text: 'Link  adf3', url: '/link3' }
+        { text: 'UGAHACKS9: Spotify Stats', url: 'https://github.com/saachivar/SpotifyStats' },
+        { text: 'Foodiez', url: 'https://github.com/audreyyyf/Foodiez' }
     ];
 
 function MainContent() {
