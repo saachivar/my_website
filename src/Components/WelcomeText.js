@@ -1,12 +1,28 @@
-function WelcomeText() {
-    return (
-        <div className="WelcomeText">
-            <p style={{ marginBottom: '0px' }}> Welcome! </p>
-            <p style={{ marginTop: '0px' }}> I'm Saachi :D</p>
-            
-        </div>
-    
-        )
+import React, { useState, useEffect } from 'react';
 
-}
+const WelcomeText = () => {
+  const textToType = "Welcome!  I'm Saachi :D";
+  const [typedText, setTypedText] = useState('');
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const typingInterval = setInterval(() => {
+      if (currentIndex < textToType.length) {
+        setTypedText(prevTypedText => prevTypedText + textToType[currentIndex]);
+        setCurrentIndex(prevIndex => prevIndex + 1);
+      } else {
+        clearInterval(typingInterval);
+      }
+    }, 100); // Adjust the typing speed here (e.g., 100 milliseconds for each character)
+
+    return () => clearInterval(typingInterval);
+  }, [currentIndex, textToType]);
+
+  return (
+    <div className = "WelcomeText">
+      <p>{typedText}</p>
+    </div>
+  );
+};
+
 export default WelcomeText;

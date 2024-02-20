@@ -2,16 +2,19 @@ import React, { useEffect } from 'react';
 
 function Descrip1() {
     useEffect(() => {
-        console.log("test");
         const slideInDiv = document.getElementById('descrip1-slide-in');
 
-        const slideInOnMount = () => {
-            console.log("test2");
+        const slideInOnLoad = () => {
             slideInDiv.style.right = '0'; // Move the div to its final position when the component mounts
         }; // Empty dependency array ensures the effect runs only once after the component mounts
 
-        // Slide in the div when the component mounts
-        slideInOnMount();
+         // Add event listener to trigger slide-in animation when the page loads
+        window.addEventListener('load', slideInOnLoad);
+
+        // Cleanup: remove event listener when component unmounts
+        return () => {
+        window.removeEventListener('load', slideInOnLoad);
+        };
     }, []); // Empty dependency array ensures the effect runs only once after the component mounts
 
 
