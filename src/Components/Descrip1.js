@@ -1,4 +1,7 @@
 import React, { useEffect } from 'react';
+import "../images/IMG_0871.png"
+
+    
 
 function Descrip1() {
     useEffect(() => {
@@ -18,13 +21,19 @@ function Descrip1() {
     }, []); // Empty dependency array ensures the effect runs only once after the component mounts
 
 
-      
     
     return (
         <div className="Descrip1" id="descrip1-slide-in">
-            <p>I’m a first year student computer science major at the University of Georgia.</p>
-            <p>Scroll down to find out more.</p>
+            <div id="Descrip1Words">
+                <p>I’m a first year student computer science major at the University of Georgia.</p>
+                <p>Scroll down to find out more.</p>
             </div>
+            <div id="Descrip1Arrow">
+            
+                <img src={ require ('../images/IMG_0871.png')} alt="something" width="50"/>
+            </div>
+        </div>
+        
         )
 
 }
