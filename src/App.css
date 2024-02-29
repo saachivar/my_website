@@ -1,3 +1,10 @@
+.App {
+  width: 100vw;
+  height: 400vh;
+  background-color: #FFFAF1;
+  display: flex;
+}
+
 .Descrip1 {
   background-color:  #8895AF;
   padding-top: 35px;
@@ -24,12 +31,6 @@
   font-size: 35px;
 }
 
-.App {
-  width: 100vw;
-  height: 300vh;
-  background-color: #FFFAF1;
-  display: flex;
-}
 
 body {
   margin: 0;

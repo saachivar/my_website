@@ -6,7 +6,7 @@ import About3 from "./About3.js";
 
 function Page2() {
 return (
-    <div className = "Page2">
+    <div className = "Page2" id="Page2">
         <About1 />
         <About2 />
         <About3 />

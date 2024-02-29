@@ -14,7 +14,7 @@ const links2 = [
 
 function Page3() {
 return (
-    <div className = "Page3">
+    <div className = "Page3" id = "Page3">
         <ProjectDescrip heading={heading1} links={links1} />
         <ProjectDescrip heading={heading2} links={links2} />
         </div>
