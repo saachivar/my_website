@@ -13,7 +13,7 @@
   padding-right: 40px;
   margin-top: 0px;
   margin-left: 650px; 
-  margin-bottom: 240px;
+  margin-bottom: 145px;
   font: monospace;
   border-radius: 200px 0px 0px 200px;
   font-weight: lighter;
@@ -99,7 +99,7 @@ body {
 .about {
   margin-left: 400px;
   margin-right: 150px;
-  margin-bottom: 120px;
+  margin-bottom: 90px;
 }
 
 .about3 {
@@ -111,6 +111,10 @@ body {
   margin-left: 400px;
   margin-bottom: 200px;
 
+}
+
+#skillsBox{
+  font-size: 800px;
 }
 
 

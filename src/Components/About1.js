@@ -1,13 +1,13 @@
 function About1() {
     return (
         <div className="about about1">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                book. It has survived not only five centuries, but also the leap into electronic typesettin
-                g, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
-                PageMaker including versions of Lorem Ipsum.</p>
+             <p style={{fontSize: '40px', marginBottom: '-5px'}}> about</p>   
+            <p style={{fontSize: '19px'}}>I’m Saachi! I am a computer science student at UGA
+                 as well as a member of the Morehead
+                 Honors College. Right now I’m learning systems
+                  programming as well as React JS for 
+                 web development. My main interests for the future a
+                 data analytics and AI. </p>
             </div>
         )
     
