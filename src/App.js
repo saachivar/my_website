@@ -1,4 +1,4 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Sidebar from './Components/Sidebar';
 import MainContent from './Components/MainContent';
