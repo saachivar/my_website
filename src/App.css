@@ -147,5 +147,13 @@ body {
   color: black ;
 }
 
+.scrollArrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px; /* Set height to fill the viewport */
+
+}
+
 
 
