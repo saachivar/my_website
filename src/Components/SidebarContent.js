@@ -5,7 +5,13 @@ import "../images/Picture2.png"
 
 
 function SidebarContent() {
-    const [scrollPosition, setScrollPosition] = useState(0);
+    const [scrollPosition, setScrollPosition] = useState(false);
+    const [rotate, setRotate] = useState(false); // Define rotate state variable and its setter function
+
+    // Function to toggle rotation and image change
+    const toggleRotation = () => {
+      setRotate(prevRotate => !prevRotate);
+    };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -31,14 +37,16 @@ function SidebarContent() {
                     {scrollPosition > window.innerHeight * .5 ? (
                         <div className="scrollUp"> 
                             <div className="scrollArrowUp">
-                              <img src={ require ('../images/Picture1.png')} alt="something" width='12' />
+                              <img src={ require ('../images/Picture1.png')} alt="something" width='12'
+                               className={`image ${rotate ? 'rotate-out' : 'rotate-in'}`} />
                             </div>
                         <p>me</p> 
                         </div>
                         ) : (
                         <div className="scrollDown"> 
                             <div className="scrollArrowDown">
-                                <img src={ require ('../images/Picture2.png')} alt="something" width='20'/>
+                                <img src={ require ('../images/Picture2.png')} alt="something" width='12'
+                                 className={`image ${rotate ? 'rotate-in' : 'rotate-out'}`}/>
                             </div>
                             <p>me</p>
                         </div>
@@ -47,17 +55,19 @@ function SidebarContent() {
             </div>
             <div className="sidebarElement">
                 <button onClick={() => scrollToHeight(1)} className="aboutTag sidebarElement ">
-                    {scrollPosition >= window.innerHeight * 2 ? (
+                    {window.innerHeight * .5 >= scrollPosition || scrollPosition >= window.innerHeight * 1.5 ? (
                         <div className="scrollUp"> 
                             <div className="scrollArrowUp">
-                                <img src={ require ('../images/Picture1.png')} alt="something" width='12' />
+                                <img src={ require ('../images/Picture1.png')} alt="something" width='12' 
+                                className={`image ${rotate ? 'rotate-out' : 'rotate-in'}`} />
                             </div>
                             <p>about</p> 
                         </div>
                         ) : (
                         <div className="scrollDown"> 
                             <div className="scrollArrowDown">
-                                <img src={ require ('../images/Picture2.png')} alt="something" width='20'/>
+                                <img src={ require ('../images/Picture2.png')} alt="something" width='12'
+                                className={`image ${rotate ? 'rotate-in' : 'rotate-out'}`}/>
                             </div>
                             <p>about</p>
                         </div>
@@ -66,17 +76,19 @@ function SidebarContent() {
             </div>
             <div className="sidebarElement">
                 <button onClick={() => scrollToHeight(2)} className="projectsTag sidebarElement ">
-                {scrollPosition > window.innerHeight * 3 ? (
+                {window.innerHeight * 1.5 > scrollPosition || scrollPosition >= window.innerHeight * 2.5 ? (
                         <div className="scrollUp"> 
                             <div className="scrollArrowUp">
-                                <img src={ require ('../images/Picture1.png')} alt="something" width='12' />
+                                <img src={ require ('../images/Picture1.png')} alt="something" width='12'
+                                className={`image ${rotate ? 'rotate-out' : 'rotate-in'}`}  />
                             </div>
                             <p>projects</p> 
                         </div>
                         ) : (
                         <div className="scrollDown"> 
                             <div className="scrollArrowDown">
-                                <img src={ require ('../images/Picture2.png')} alt="something" width='20'/>
+                                <img src={ require ('../images/Picture2.png')} alt="something" width='12'
+                                className={`image ${rotate ? 'rotate-in' : 'rotate-out'}`}/>
                             </div>
                             <p>projects</p>
                         </div>
@@ -85,17 +97,19 @@ function SidebarContent() {
             </div>
             <div className="sidebarElement">
                 <button onClick={() => scrollToHeight(3)} className="projectsTag sidebarElement ">
-                {scrollPosition > window.innerHeight * 4 ? (
+                {window.innerHeight * 2.5 > scrollPosition ? (
                         <div className="scrollUp"> 
                             <div className="scrollArrowUp">
-                                <img src={ require ('../images/Picture1.png')} alt="something" width='12' />
+                                <img src={ require ('../images/Picture1.png')} alt="something" width='12' 
+                                className={`image ${rotate ? 'rotate-out' : 'rotate-in'}`} />
                             </div>
                             <p>contact</p> 
                         </div>
                         ) : (
                         <div className="scrollDown"> 
                             <div className="scrollArrowDown">
-                                <img src={ require ('../images/Picture2.png')} alt="something" width='20'/>
+                                <img src={ require ('../images/Picture2.png')} alt="something" width='12'
+                                className={`image ${rotate ? 'rotate-in' : 'rotate-out'}`}/>
                             </div>
                             <p>contact</p>
                         </div>

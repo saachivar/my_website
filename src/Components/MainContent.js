@@ -3,7 +3,7 @@ import Descrip1 from "./Descrip1.js";
 import About1 from "./About1.js";
 import About2 from "./About2.js";
 import About3 from "./About3.js";
-import ProjectDescrip from "./ProjectDescrip.js";
+import ProjectDescrip1 from "./ProjectDescrip1.js";
 
 
 const heading1 = 'Solo Projects:';
@@ -26,8 +26,7 @@ return (
         <About1 />
         <About2 />
         <About3 />
-        <ProjectDescrip heading={heading1} links={links1} />
-        <ProjectDescrip heading={heading2} links={links2} />
+        <ProjectDescrip1 heading={heading1} links={links1} />
         
         </div>
 );
