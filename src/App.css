@@ -8,23 +8,21 @@
 
 .Descrip1 {
   background-color:  #8895AF;
-  padding-top: 45px;
+  padding-top: 55px;
   padding-bottom: 65px;
   padding-left: 140px;
   padding-right: 40px;
-  margin-top: 0px;
+  margin-top: 55px;
   margin-left: 650px; 
-  margin-bottom: 110px;
-  font: monospace;
+  margin-bottom: 130px;
   border-radius: 200px 0px 0px 200px;
-  font-weight: lighter;
   font-size: 30px;
-  position: relative; 
+  position: static; 
   right: -800px; /* Off-screen initially */
   transition: right 1s ease; /* Slide-in transition */
   display: flex;
   height: 350px;
-
+  font-weight: lighter;
   box-shadow: 0px 2px 5px 4px #d7d8da;
 
 }
@@ -51,13 +49,15 @@ body {
 }
 
 .SidebarContent {
-  padding: 30px;
+  padding: 30px 40px;
   color: white;
 }
 
 .title {
   font-size: 35px;
   padding-bottom: 25px;
+ 
+  
 }
 
 .sidebarElement {
@@ -81,15 +81,16 @@ body {
   display: flex; 
   padding: 50px 50px 0px 50px;
   margin-left: 300px;
-  margin-bottom: 90px;
+  margin-bottom: 100px;
 
 }
 
 .WelcomeText {
-  padding-left: 400px;
-  padding-top: 0px;
-  font-family: 'Koh Santepheap';font-size: 80px;
-  font-weight: lighter;
+  padding-left: 430px;
+  padding-top: 85px;
+  font-family: 'Fahkwang';
+  font-size: 85px;
+  color: #380652;
 
 }
 
@@ -140,12 +141,11 @@ body {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   height: 200px; /* Set a height for the container */
-  background-color: #8895AF;
+  color: white;
+  background-color: #380652;
+  font-family: Fahkwang;
 }
 
-.carousel-control-prev, .carousel-control-next {
-  color: black ;
-}
 
 .scrollUp {
   display: flex;
