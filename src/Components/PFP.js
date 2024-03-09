@@ -1,9 +1,9 @@
 import "../App.css";
-import "../images/logo192.png"
+import "../images/pfp.png"
 function PFP() {
     return (
         <div className="pfpImage">
-            <img src={ require ('../images/logo192.png')} alt="something" width="320"/>
+            <img src={ require ('../images/pfp.png')} alt="something" width="320"/>
         </div>
 
     )

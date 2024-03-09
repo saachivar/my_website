@@ -29,7 +29,6 @@ function Descrip1() {
                 <p>Scroll down to find out more.</p>
             </div>
             <div id="Descrip1Arrow">
-            
                 <img src={ require ('../images/IMG_0871.png')} alt="something" width="50"/>
             </div>
         </div>
