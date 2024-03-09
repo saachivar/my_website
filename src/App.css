@@ -64,7 +64,7 @@ body {
   1px -1px 0 white,
   -1px 1px 0 white,
   1px 1px 0 white; /* Add white shadows to create the outline effect */
-  color: #380652;
+  color: #faebd7;
 
 
 
@@ -120,6 +120,7 @@ body {
   margin-left: 400px;
   margin-right: 150px;
   margin-bottom: 40px;
+  font-family: Helvetica;
 }
 
 .about3 {
@@ -129,24 +130,25 @@ body {
 
 .ProjectDescrip {
   margin-left: 400px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 40px;
-  font: Helvetica;
+  font-family: Helvetica;
+
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust as needed */
-  grid-gap: 110px; /* Adjust the gap between grid items */
+  grid-template-columns: repeat(auto-fill, minmax(50px, 300px)); /* Adjust as needed */
+  grid-gap: 70px; /* Adjust the gap between grid items */
 }
 
 .grid-item {
-  text-align: center; /* Center the image */
+  
   text-decoration: none; /* Remove underline from links */
 }
 
 .grid-item img {
-  height: 200px; 
+  height: 180px; 
 }
 
 #skillsBox{
@@ -229,7 +231,7 @@ body {
 }
 
 #codenotes-img {
-  padding-right: 310px;
+  padding-right: 3px;
   background-color: white;
 }
 
@@ -238,5 +240,6 @@ body {
   overflow: hidden; /* Ensure the image is clipped to the rounded corners */
   border:1px solid #380652;
   box-shadow: 2px 4px 4px 1px #8895AF ;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  text-align: center; /* Center the image */
 }
