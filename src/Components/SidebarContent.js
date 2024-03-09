@@ -5,19 +5,19 @@ import "../images/Picture2.png"
 
 
 function SidebarContent() {
-    const [scrollPosition, setScrollPosition] = useState(false);
+    const [scrollPosition, setScrollPosition] = useState(false); 
     const [rotate, setRotate] = useState(false); // Define rotate state variable and its setter function
 
-    // Function to toggle rotation and image change
+     //Function to toggle rotation and image change
     const toggleRotation = () => {
       setRotate(prevRotate => !prevRotate);
-    };
+    }; 
 
     useEffect(() => {
         const handleScroll = () => {
           const scrollY = window.scrollY;
             setScrollPosition(scrollY);
-        };
+        }; 
     
         // Attach scroll event listener when component mounts
         window.addEventListener('scroll', handleScroll);

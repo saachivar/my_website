@@ -1,6 +1,5 @@
 import "../images/websitelogo.png"
 import "../images/codenotes.png"
-import { hover } from "@testing-library/user-event/dist/hover";
 
 function ProjectDescrip1 ()  {
     return (
