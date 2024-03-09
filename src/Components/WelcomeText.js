@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const WelcomeText = () => {
-  const textToType = "I'm Saachi :D";
+  const textToType = "I'm Saachi :)";
   const [typedText, setTypedText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
 

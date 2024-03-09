@@ -10,10 +10,12 @@ function SidebarContent() {
 
      //Function to toggle rotation and image change
     const toggleRotation = () => {
-      setRotate(prevRotate => !prevRotate);
+        setRotate(prevRotate => !prevRotate);
     }; 
 
     useEffect(() => {
+        
+        
         const handleScroll = () => {
           const scrollY = window.scrollY;
             setScrollPosition(scrollY);
