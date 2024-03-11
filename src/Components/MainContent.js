@@ -17,6 +17,7 @@ return (
         <About3 />
         <ProjectDescrip1/>
         <ProjectDescrip2/>
+        <Contact/>
         </div>
 );
 
