@@ -29,7 +29,11 @@ import { Form, Button } from 'react-bootstrap';
         };
       
         return (
-          <div className='contact-form'>
+          <div className='contact'>
+            <div className='contact-title'>
+              <p> contact me</p>
+            </div>
+            <div className='contact-form'>
             <Form onSubmit={handleSubmit}>
               <Form.Group controlId="formName">
                 <Form.Label>Name</Form.Label>
@@ -38,7 +42,6 @@ import { Form, Button } from 'react-bootstrap';
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="Enter your name"
                   required
                 />
               </Form.Group>
@@ -50,7 +53,6 @@ import { Form, Button } from 'react-bootstrap';
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="Enter your email"
                   required
                 />
               </Form.Group>
@@ -62,7 +64,6 @@ import { Form, Button } from 'react-bootstrap';
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  placeholder="Enter the subject"
                   required
                 />
               </Form.Group>
@@ -75,7 +76,6 @@ import { Form, Button } from 'react-bootstrap';
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Enter your message"
                   required
                 />
               </Form.Group>
@@ -84,6 +84,7 @@ import { Form, Button } from 'react-bootstrap';
                 Submit
               </Button>
             </Form>
+            </div>
           </div>  
         );
       };

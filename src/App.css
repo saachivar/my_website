@@ -249,9 +249,45 @@ body {
   text-align: center; /* Center the image */
 }
 
+.contact {
+  margin-top: 95px;
+  margin-left: 400px;
+  margin-right: 150px;
+}
+
+.form-label, .form-control {
+  width: 875px;
+  font-size: 25px;
+  font-weight: 300;
+  color:#380652
+}
+
+.form-control{
+  margin-bottom: 15px;
+}
+
+.contact-title {
+  margin-bottom: 10px;
+  margin-top: 25px; 
+  font-size: 40px;
+}
+
 .contact-form {
-  margin-top: 200px;
-  margin-left: 500px;
   display: flex;
   justify-content: center;
+  padding: 30px;
+  border: 1px solid #380652;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 25px;
+  font-family: Fahkwang;
+  box-shadow: 2px 4px 4px 1px #8895AF ;
+}
+
+.btn-primary {
+  background-color: #380652;
+  color: white;
+  margin-left: 405px;
+  font-size: 20px;
+  
 }

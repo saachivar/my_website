@@ -6,12 +6,15 @@ import About3 from "./About3.js";
 import ProjectDescrip1 from "./ProjectDescrip1.js";
 import ProjectDescrip2 from "./ProjectDescrip2.js";
 import Contact from "./Contact.js";
+import { Reveal } from "./utils/Reveal.tsx"
 
 
 function MainContent() {
 return (
     <div className = "MainContent">
+        <Reveal>
         <WelcomeContent/>
+        </Reveal>
         <Descrip1 />
         <About1 />
         <About2 />

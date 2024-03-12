@@ -15,7 +15,7 @@ function ProjectDescrip1 ()  {
                     </div>
                     <h3 style={{ marginBottom: '5px', fontSize: '17px', paddingLeft: '18px', color: "grey" }}> march 2024 </h3>
                     <h3 style={{ marginBottom: '5px', fontSize: '17px', paddingLeft: '18px', color: "grey" }}> uses: react, javascript, html, css </h3>
-                    <p style={{  fontSize: '25px', paddingLeft: '18px', marginBottom: '0px', color: "#380652", }}> this website </p>
+                    <p style={{  fontSize: '25px', paddingLeft: '18px', marginBottom: '0px', color: "#380652"}}> this website </p>
                     
                 </div>
             </a>
@@ -26,7 +26,7 @@ function ProjectDescrip1 ()  {
                     </div>
                     <h3 style={{ marginBottom: '5px', fontSize: '17px', paddingLeft: '18px', color: "grey" }}> febuary 2024 </h3>
                     <h3 style={{ marginBottom: '5px', fontSize: '17px', paddingLeft: '18px', color: "grey" }}> uses: google apps script </h3>
-                    <p style={{  fontSize: '25px', paddingLeft: '18px', marginBottom: '0px', color: "#380652", }}> CodeNotes </p>
+                    <p style={{  fontSize: '25px', paddingLeft: '18px', marginBottom: '0px', color: "#380652"}}> CodeNotes </p>
                     
                 </div>
             </a>
