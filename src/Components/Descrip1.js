@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import "../images/IMG_0871.pnng"
+import "../images/IMG_0871.png"
 
     
 
