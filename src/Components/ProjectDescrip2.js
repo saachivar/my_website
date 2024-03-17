@@ -8,7 +8,7 @@ function ProjectDescrip2 ()  {
             <div className="grid-container">
                 <div className="grid-item">
                     <div className="project-picture" id="spotifystats-img">
-                        <a href="https://github.com/saachivar/SpotifyStats " target="_blank" rel="noreferrer" className="grid-item">
+                        <a href="https://github.com/saachivar/SpotifyStatms " target="_blank" rel="noreferrer" className="grid-item">
                             <img src={ require ('../images/spotifystats.png')} alt="website"/> 
                         </a>
                     </div>
