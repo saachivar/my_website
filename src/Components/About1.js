@@ -30,7 +30,7 @@ function About1() {
                  Honors College. Right now I’m learning systems
                   programming as well as React JS for 
                  web development. My main interests for the future a
-                 data analytics and AI.   </p>
+                 data analytics and AI.</p>
             </div>
             </div>
         )
