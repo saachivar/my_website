@@ -6,18 +6,20 @@ import About3 from "./About3.js";
 import ProjectDescrip1 from "./ProjectDescrip1.js";
 import ProjectDescrip2 from "./ProjectDescrip2.js";
 import Contact from "./Contact.js";
-import { Reveal } from "./utils/Reveal.tsx"
+import React, { useEffect, useRef } from 'react';
 
 
 function MainContent() {
+const myRef = useRef();
+useEffect(() => {
+    console.log('myRef', myRef.current)
+}, [])
 return (
     <div className = "MainContent">
-        <Reveal>
         <WelcomeContent/>
-        </Reveal>
         <Descrip1 />
         <About1 />
-        <About2 />
+        <About2 ref={myRef}/>
         <About3 />
         <ProjectDescrip1/>
         <ProjectDescrip2/>
