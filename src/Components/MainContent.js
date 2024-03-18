@@ -12,7 +12,13 @@ import React, { useEffect, useRef } from 'react';
 function MainContent() {
 const myRef = useRef();
 useEffect(() => {
-    console.log('myRef', myRef.current)
+    if (myRef.current) {
+    const observer = new IntersectionObserver((entries) => {
+        const entry = entries[0];
+        console.log('entry', entry);
+    })
+    observer.observe(myRef.current); 
+}
 }, [])
 return (
     <div className = "MainContent">
