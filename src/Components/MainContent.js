@@ -6,19 +6,20 @@ import About3 from "./About3.js";
 import ProjectDescrip1 from "./ProjectDescrip1.js";
 import ProjectDescrip2 from "./ProjectDescrip2.js";
 import Contact from "./Contact.js";
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 
 function MainContent() {
 const myRef = useRef();
+const [myElementisVisible, setMyElementIsVisible] = useState();
+console.log('myElementIsVisible', myElementisVisible);
 useEffect(() => {
-    if (myRef.current) {
     const observer = new IntersectionObserver((entries) => {
         const entry = entries[0];
-        console.log('entry', entry);
+        setMyElementIsVisible(entry.isIntersecting);
     })
     observer.observe(myRef.current); 
-}
+   
 }, [])
 return (
     <div className = "MainContent">
