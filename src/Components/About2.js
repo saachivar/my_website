@@ -1,10 +1,12 @@
 import React from 'react'; 
+import { useInView } from 'react-intersection-observer';
 
-const About2 = React.forwardRef((props, ref) => {
+function About2() {
+    const { ref: myRef, inView: myElementIsVisible, entry } = useInView();
  
 
     return (
-        <div ref={ref} className="about about2">
+        <div ref={myRef} className={`about about2 ${myElementIsVisible ? 'animateTestAbout' : ''}`}>
             <p style={{fontSize: '35px', marginBottom: '30px'}}>skills</p>
             <div id="skillsBox"  style={{fontSize: '40px', }}>
                <p  style={{fontSize: '40px', margin: '0px' }}>HTML   |   CSS    |   JavaScript    |   Java   |   C</p>
@@ -12,5 +14,5 @@ const About2 = React.forwardRef((props, ref) => {
             </div>
         );
     
-    });
+    }
     export default About2;
