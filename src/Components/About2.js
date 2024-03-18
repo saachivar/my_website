@@ -2,7 +2,7 @@ import React from 'react';
 import { useInView } from 'react-intersection-observer';
 
 function About2() {
-    const { ref: myRef, inView: myElementIsVisible, entry } = useInView();
+    const { ref: myRef, inView: myElementIsVisible} = useInView();
  
 
     return (
