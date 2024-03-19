@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
-import React from 'react'; 
 import { useInView } from 'react-intersection-observer';
 
     const Contact = () => {

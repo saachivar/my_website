@@ -289,12 +289,44 @@ body {
   color: white;
   margin-left: 405px;
   font-size: 20px;
+  border: none;
   
 }
 
 .fadeIt{
   animation: fadeIn 3s;
 }
+
+#Descrip1Arrow {
+  width: 100px;
+  height: 100px;
+  animation-name: cycle-animation;
+  animation-duration: 2.5s; /* Total duration of the animation cycle */
+  animation-iteration-count: infinite; /* Repeat the animation infinitely */
+  animation-timing-function: linear; /* Optional: Use linear timing function */
+}
+
+@keyframes cycle-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  20% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  90% {
+    transform: translateY(120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+}
+
 
 @keyframes fadeIn {
   0% {
