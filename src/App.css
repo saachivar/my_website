@@ -294,19 +294,16 @@ body {
 
 .animateTestAbout {
   animation-duration: 5s;
-  animation: animate-test-about;
+  animation: animate;
   background-color: black;
 }
 
-@keyframes animate-test-about {
+@keyframes animate {
   0% {
-    transform: scale(1) rotate(10deg);
-  }
-  20% {
-    transform: scale(2) rotate(0);
+    opacity: 0;
   }
   100% {
-    transform: scale(20) translate3D(100vw, -100vh, 0) rotate(0);
+    opacity: 1;
   }
 }
 
