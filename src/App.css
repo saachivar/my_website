@@ -108,7 +108,7 @@ body {
   white-space: pre;
 }
 
-.pfpImage {
+#pfpImage {
   height: 40px;
   width: 40px;
   display: inline-block; 
@@ -292,18 +292,18 @@ body {
   
 }
 
-.animateTestAbout {
-  animation-duration: 5s;
-  animation: animate;
-  background-color: black;
+.fadeIt{
+  animation: fadeIn 3s;
 }
 
-@keyframes animate {
+@keyframes fadeIn {
   0% {
     opacity: 0;
+    transform: translateY(25px); /* Initially, translate the element 20px down */
   }
   100% {
     opacity: 1;
+    transform: translateY(0); /* At the end of the animation, bring the element back to its original position */
   }
 }
 

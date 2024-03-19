@@ -2,7 +2,7 @@ import "../App.css";
 import "../images/pfp.png"
 function PFP() {
     return (
-        <div className="pfpImage">
+        <div id="pfpImage" className='fadeIt'>
             <img src={ require ('../images/pfp.png')} alt="something" width="320"/>
         </div>
 

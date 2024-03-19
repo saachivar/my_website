@@ -1,9 +1,12 @@
 import "../images/websitelogo.png"
 import "../images/codenotes.png"
+import React from 'react'; 
+import { useInView } from 'react-intersection-observer';
 
 function ProjectDescrip1 ()  {
+    const { ref: myRef, inView: myElementIsVisible} = useInView();
     return (
-        <div className="ProjectDescrip">
+        <div ref={myRef} className={`ProjectDescrip ${myElementIsVisible ? 'fadeIt' : ''}`} >
             <div> <p style={{ marginBottom: '3px', fontSize: '35px'}}  > solo projects: </p> </div>
             <div className="grid-container">
             <a href="https://github.com/saachivar/my_website " target="_blank" rel="noreferrer" className="grid-item">

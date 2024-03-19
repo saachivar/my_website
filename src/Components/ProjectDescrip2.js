@@ -1,9 +1,12 @@
 import "../images/spotifystats.png"
+import React from 'react'; 
+import { useInView } from 'react-intersection-observer';
 
 
 function ProjectDescrip2 ()  {
+    const { ref: myRef, inView: myElementIsVisible} = useInView();
     return (
-        <div className="ProjectDescrip">
+        <div ref={myRef} className={`ProjectDescrip ${myElementIsVisible ? 'fadeIt' : ''}`}>
             <div> <p style={{ marginBottom: '3px', marginTop: '28px', fontSize: '35px'}} > group projects: </p> </div>
             <div className="grid-container">
                 <div className="grid-item">

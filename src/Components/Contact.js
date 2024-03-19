@@ -1,8 +1,11 @@
 
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
+import React from 'react'; 
+import { useInView } from 'react-intersection-observer';
 
     const Contact = () => {
+      const { ref: myRef, inView: myElementIsVisible} = useInView();
         const [formData, setFormData] = useState({
           name: '',
           email: '',
@@ -29,7 +32,7 @@ import { Form, Button } from 'react-bootstrap';
         };
       
         return (
-          <div className='contact'>
+          <div ref={myRef} className={`contact ${myElementIsVisible ? 'fadeIt' : ''}`}>
             <div className='contact-title'>
               <p> contact me</p>
             </div>

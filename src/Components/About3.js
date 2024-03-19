@@ -1,7 +1,11 @@
 import { Carousel } from 'react-bootstrap';
+import React from 'react'; 
+import { useInView } from 'react-intersection-observer';
+
 function About3() {
+  const { ref: myRef, inView: myElementIsVisible} = useInView();
     return (
-        <div className="about about3">
+        <div ref={myRef} className={`about about3 ${myElementIsVisible ? 'fadeIt' : ''}`}>
             <p style={{fontSize: '35px', marginBottom: '30px'}}>fun facts</p>
             <div>
             <Carousel>
