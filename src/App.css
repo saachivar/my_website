@@ -339,3 +339,20 @@ body {
   }
 }
 
+.ContactBar {
+  display: flex;
+  margin-left: 37px;
+  margin-top: 330px;
+}
+
+.ContactBarButton {
+  height: 20px;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-right: 30px;
+}
+.ContactBarImg {
+  height: 40px;
+}
+
