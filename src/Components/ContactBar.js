@@ -15,7 +15,7 @@ function ContactBar() {
                 </a>
             </div>
             <div className="ContactBarButton"> 
-                <a href="https://github.com/saachivar" target="_blank" rel="noreferrer">
+                <a href="https://github.com/saachivar " target="_blank" rel="noreferrer">
                     <img className="ContactBarImg" src={require('../images/github-mark.png')} alt="github" />
                 </a>
             </div>
