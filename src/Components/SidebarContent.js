@@ -105,7 +105,7 @@ function SidebarContent() {
                                 <img src={ require ('../images/Picture1.png')} alt="something" width='12' 
                                 className={`image ${rotate ? 'rotate-out' : 'rotate-in'}`} />
                             </div>
-                            <p>contact</p> 
+                            <p>thanks</p> 
                         </div>
                         ) : (
                         <div className="scrollDown"> 
@@ -113,7 +113,7 @@ function SidebarContent() {
                                 <img src={ require ('../images/Picture2.png')} alt="something" width='12'
                                 className={`image ${rotate ? 'rotate-in' : 'rotate-out'}`}/>
                             </div>
-                            <p>contact</p>
+                            <p>thanks</p>
                         </div>
                         )}
                 </button>

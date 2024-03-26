@@ -5,7 +5,7 @@ import About2 from "./About2.js";
 import About3 from "./About3.js";
 import ProjectDescrip1 from "./ProjectDescrip1.js";
 import ProjectDescrip2 from "./ProjectDescrip2.js";
-import Contact from "./Contact.js";
+
 
 
 function MainContent() {
@@ -21,7 +21,6 @@ return (
         <About3 />
         <ProjectDescrip1/>
         <ProjectDescrip2/>
-        <Contact/>
         </div>
 );
 
