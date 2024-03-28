@@ -5,6 +5,7 @@ import About2 from "./About2.js";
 import About3 from "./About3.js";
 import ProjectDescrip1 from "./ProjectDescrip1.js";
 import ProjectDescrip2 from "./ProjectDescrip2.js";
+import Thanks from "./Thanks.js"
 
 
 
@@ -21,6 +22,7 @@ return (
         <About3 />
         <ProjectDescrip1/>
         <ProjectDescrip2/>
+        <Thanks />
         </div>
 );
 

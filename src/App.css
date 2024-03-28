@@ -355,4 +355,35 @@ body {
 .ContactBarImg {
   height: 40px;
 }
+.Thanks {
+  margin-left: 450px;
+  margin-top: 150px;
+  color: #380652;
+  font-family: Fahkwang;
+  font-size: 60px;
+}
+
+.popIt {
+  animation: popUp 2s ease forwards;
+  opacity: 0;
+
+  animation-delay: .5s
+}
+
+@keyframes popUp {
+  0% {
+      opacity: 0;
+      transform: scale(0.5) rotate(0deg);
+  }
+  70% {
+      transform: scale(2) rotate(90deg) translateX(70px) translateY(-30);
+
+  }
+  100% {
+      opacity: 1;
+      transform: scale(1) rotate(0deg);
+  }
+}
+
+
 
