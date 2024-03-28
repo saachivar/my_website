@@ -7,7 +7,7 @@ function Thanks() {
 return (
     
     <div  ref={myRef} className={`Thanks ${myElementIsVisible ? 'popIt' : ''}`}> 
-       <h1> thanks for coming! </h1>
+        thanks for coming! 
     </div>
 );
 

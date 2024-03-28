@@ -360,11 +360,11 @@ body {
   margin-top: 150px;
   color: #380652;
   font-family: Fahkwang;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .popIt {
-  animation: popUp 2s ease forwards;
+  animation: popUp 1s ease forwards;
   opacity: 0;
 
   animation-delay: .5s

@@ -11,19 +11,19 @@ function About3() {
             <Carousel>
               <Carousel.Item>
                 <div className="carouselFeatures">
-                  <h3> my mom is super annoying </h3>
+                  <h3> my friend aryana helped come up with the name saachily </h3>
                 </div>
               </Carousel.Item>
 
               <Carousel.Item >
                 <div className="carouselFeatures">
-                  <h3> my dad is super annoying </h3>
+                  <h3> i love brain teasers and puzzles </h3>
                 </div>
               </Carousel.Item>
 
               <Carousel.Item>
                 <div className="carouselFeatures">
-                  <h3> my brother is super annoying </h3>
+                  <h3> i don't have any more facts</h3>
                 </div>
               </Carousel.Item>
             </Carousel> 
