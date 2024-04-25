@@ -369,6 +369,9 @@ body {
 
   animation-delay: .5s
 }
+#foodiez-img {
+  background-color: white;
+}
 
 @keyframes popUp {
   0% {
